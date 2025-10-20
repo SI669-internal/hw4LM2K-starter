@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FlatList, StyleSheet, View, Text, TouchableOpacity } from "react-native";
-import { Input, Button } from '@rneui/themed';
+import { Input, Button } from '@rneui/base';
 import { useSelector, useDispatch } from 'react-redux';
 
 import { ADD_ITEM, UPDATE_ITEM } from '../Reducer';

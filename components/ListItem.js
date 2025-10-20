@@ -1,7 +1,7 @@
 
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
-import { Button, Icon } from '@rneui/themed';
 import { useSelector, useDispatch } from 'react-redux';
+import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 import { DELETE_ITEM } from '../Reducer';
 import { TagLabel } from './TagLabel';
 
@@ -42,8 +42,8 @@ function ListItem(props) {
           deleteItem(item);
         }}  
       >
-        <Icon 
-          name="trash"
+        <MaterialIcons 
+          name="delete"
           type="font-awesome"
           color="black"
           size={25}

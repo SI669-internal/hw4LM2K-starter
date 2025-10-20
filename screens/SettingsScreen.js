@@ -1,6 +1,6 @@
 import { useSelector, useDispatch } from "react-redux";
 import { StyleSheet, View, Text, FlatList} from "react-native";
-import { Input, Button } from '@rneui/themed';
+import { Input, Button } from '@rneui/base';
 
 import TagListItem from '../components/TagListItem';
 import { SET_NICKNAME } from "../Reducer";

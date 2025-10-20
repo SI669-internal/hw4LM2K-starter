@@ -8,12 +8,12 @@ See the [Demo Video](https://youtu.be/QunoO_iCfQM).
 * Use Redux to manage application-level state
 
 ## Project Goals
-* Modify the ListMaker 2000 app to support CRUD for labels
+* Modify the ListMaker 2000 app to support CRUD for tags (aka labels)
 
 ## What to Do
 1. Accept the GitHub Classroom invitation.
 2. Clone the repo that is created to your local machine.
-3. `cd` into the directory that was created when you cloned the repo (it should be called `hw4-lm2k-<your-github-id>`).
+3. `cd` into the directory that was created when you cloned the repo (it should be called something like `hw4-lm2k-<your-github-id>`).
 4. execute `npm install`
 5. Modify the code to support CRUD for tags. Make sure that tags already assigned to list items are updated correctly as well.
 6. Push your final changes to GitHub before the deadline.

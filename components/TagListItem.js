@@ -1,7 +1,6 @@
 
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
-import { Icon } from '@rneui/themed';
-
+import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 
 function TagListItem(props) {
 
@@ -29,9 +28,8 @@ function TagListItem(props) {
           deleteTag(tag);
         }}  
       >
-        <Icon 
-          name="trash"
-          type="font-awesome"
+        <MaterialIcons 
+          name="delete"
           color="black"
           size={25}
         />
